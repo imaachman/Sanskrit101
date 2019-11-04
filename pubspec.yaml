@@ -1,0 +1,159 @@
+name: sanskrit101
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^0.13.0
+  flare_flutter: any
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/sounds/a.wav
+    - assets/sounds/ā.wav
+    - assets/sounds/agrimsaptaahe guruh vyaakarañm paathhishhyati.wav
+    - assets/sounds/ah.wav
+    - assets/sounds/ahm hasaami.wav
+    - assets/sounds/ahm sanskritpandit bhavishhyami.wav
+    - assets/sounds/ai.wav
+    - assets/sounds/an.wav
+    - assets/sounds/ang.wav
+    - assets/sounds/au.wav
+    - assets/sounds/ba.wav
+    - assets/sounds/bha.wav
+    - assets/sounds/ca.wav
+    - assets/sounds/cha.wav
+    - assets/sounds/choraha petikaam aharan.wav
+    - assets/sounds/da.wav
+    - assets/sounds/dah.wav
+    - assets/sounds/dha.wav
+    - assets/sounds/dhha.wav
+    - assets/sounds/dushhtaan devh dañdishhyati.wav
+    - assets/sounds/e.wav
+    - assets/sounds/eshha baalaa phalm khaadati.wav
+    - assets/sounds/ga.wav
+    - assets/sounds/gayakaha gaayanti.wav
+    - assets/sounds/gha.wav
+    - assets/sounds/ha.wav
+    - assets/sounds/i.wav
+    - assets/sounds/ī.wav
+    - assets/sounds/ja.wav
+    - assets/sounds/jha.wav
+    - assets/sounds/ka.wav
+    - assets/sounds/kha.wav
+    - assets/sounds/la.wav
+    - assets/sounds/ma.wav
+    - assets/sounds/mitraañi kridanti.wav
+    - assets/sounds/na.wav
+    - assets/sounds/ña.wav
+    - assets/sounds/nartakaah nrityanti.wav
+    - assets/sounds/o.wav
+    - assets/sounds/pa.wav
+    - assets/sounds/pha.wav
+    - assets/sounds/ra.wav
+    - assets/sounds/ramh grihm aagachchhati.wav
+    - assets/sounds/ri.wav
+    - assets/sounds/sa.wav
+    - assets/sounds/saa anyaaym na sahishhyate.wav
+    - assets/sounds/saa gachchhti.wav
+    - assets/sounds/sah apathhat.wav
+    - assets/sounds/sah pathati.wav
+    - assets/sounds/sha.wav
+    - assets/sounds/shha.wav
+    - assets/sounds/shishhyh namati.wav
+    - assets/sounds/Sinhh mrigm amaaryat.wav
+    - assets/sounds/ta.wav
+    - assets/sounds/taañi dhaavanti.wav
+    - assets/sounds/tah.wav
+    - assets/sounds/te ahasan.wav
+    - assets/sounds/tha.wav
+    - assets/sounds/thha.wav
+    - assets/sounds/tvm likhasi.wav
+    - assets/sounds/u.wav
+    - assets/sounds/ū.wav
+    - assets/sounds/va.wav
+    - assets/sounds/vaym sanskrit vadaamh.wav
+    - assets/sounds/vym dhaavaamh.wav
+    - assets/sounds/vym namaamh.wav
+    - assets/sounds/ya.wav
+    - assets/sounds/yn.wav
+    - assets/sounds/yooym khaadatha.wav
+
+    - assets/flare/S.flr
+    - assets/flare/101.flr
+
+    - assets/images/boy.png
+    - assets/images/cat.png
+    - assets/images/dog.png
+    - assets/images/father.png
+    - assets/images/girl.png
+    - assets/images/orange.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Laila
+       fonts:
+         - asset: assets/fonts/Laila-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+     - family: Ranga
+       fonts:
+         - asset: assets/fonts/Ranga-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+     - family: Oswald
+       fonts:
+         - asset: assets/fonts/Oswald[wght].ttf
+
+     - family: Karma
+       fonts:
+         - asset: assets/fonts/Karma-Regular.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
